@@ -1,6 +1,6 @@
 {
     // menu title
-    "title": "CJB Cheats Menu",
+    "title": "CJB Menu de Trapaças",
 
     // menu tabs
     "tabs.player-and-tools": "Jogador e Ferramentas",
@@ -10,7 +10,7 @@
     "tabs.relationships": "Relacionamentos",
     "tabs.warp": "Teletransporte",
     "tabs.time": "Horário",
-    "tabs.advanced": "Advanced", // TODO
+    "tabs.advanced": "Avançado",
     "tabs.controls": "Controles",
 
     // 'Player & Tools' tab
@@ -19,7 +19,7 @@
     "player.infinite-health": "Vida Infinita",
     "player.increased-movement-speed": "Velocidade de Movimento Aumentada",
     "player.movement-speed": "Velocidade de Movimento",
-    "player.one-hit-kill": "Morte Instantânea em Golpes",
+    "player.one-hit-kill": "Matar monstros com um golpe",
     "player.max-daily-luck": "Sorte Diária Máxima",
     "tools.title": "Ferramentas",
     "tools.infinite-water": "Água Infinita no Regador",
@@ -110,7 +110,7 @@
     "weather.title": "Tempo Amanhã",
     "weather.current": "Atual",
     "weather.sunny": "Ensolarado",
-    "weather.raining": "Chuva",
+    "weather.raining": "Chuvoso",
     "weather.lightning": "Tempestade",
     "weather.snowing": "Neve",
 
@@ -126,13 +126,13 @@
     "warp.pierre-shop": "Armazém do Pierre",
     "warp.blacksmith": "Ferreiro",
     "warp.museum": "Museu",
-    "warp.saloon": "Saloon",
+    "warp.saloon": "Bar: Saloon",
     "warp.community-center": "Centro Comunitário",
     "warp.carpenter": "Carpintaria",
     "warp.adventurers-guild": "Guilda dos Aventureiros",
     "warp.ranch": "Rancho da Marnie",
     "warp.mines": "Minas",
-    "warp.willy-shop": "Peixaria",
+    "warp.willy-shop": "Peixaria do Willy",
     "warp.wizard-tower": "Torre do Mago",
     "warp.hats": "Chapéus",
     "warp.desert": "Deserto",
@@ -146,22 +146,21 @@
 
     // 'Time' tab
     "time.title": "Horário",
-    "time.freeze-inside": "Parar o Tempo Dentro",
-    "time.freeze-caves": "Parar o Tempo nas Minas",
-    "time.freeze-everywhere": "Parar o Tempo em Todo Lugar",
-    "time.time": "Horário",
+    "time.freeze-inside": "Congelar o tempo",
+    "time.freeze-caves": "Congelar o tempo nas minas",
+    "time.freeze-everywhere": "Congelar o tempo em todo lugar",
+    "time.time": "Horário desejado",
 
     // 'Flags' tab
-    // TODO
-    "flags.warning": "Use this section at your own risk!\nThis may cause issues like skipped mail, events, or quests.",
-    "flags.quests": "Complete Quests",
-    "flags.wallet": "Wallet Items",
-    "flags.unlocked": "Unlocked Areas",
-    "flags.unlocked.guild": "Adventurer's Guild",
-    "flags.unlocked.room": "Room: {{name}}",
-    "flags.community-center": "Community Center",
-    "flags.community-center.door-unlocked": "Door Unlocked",
-    "flags.jojamart.membership": "JojaMart Membership",
+    "flags.warning": "Use essa sessão por sua conta em risco! Isso pode causar problemas de perder eventos, missões ou correrios.",
+    "flags.quests": "Missões completas",
+    "flags.wallet": "Itens da Carteira",
+    "flags.unlocked": "Desbloquear áreas",
+    "flags.unlocked.guild": "Guilda dos aventureiros",
+    "flags.unlocked.room": "Desbloquear Sala: {{nome}}",
+    "flags.community-center": "Centro Comunitário",
+    "flags.community-center.door-unlocked": "Liberar porta",
+    "flags.jojamart.membership": "Se tornar membro do JojaMart",
 
     // 'Controls' tab
     "controls.title": "Controles",
@@ -172,5 +171,5 @@
 
     // various messages
     "messages.press-new-key": "Pressione Uma Nova Tecla...",
-    "messages.time-frozen": "Tempo Parado"
+    "messages.time-frozen": "Parar o tempo"
 }
